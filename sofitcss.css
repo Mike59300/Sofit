@@ -1,42 +1,22 @@
 body {
     font-size: 20px;
+    background-image: url(./Img/background.png) !important;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 #title{
     font-size: 2.5rem;
     text-align: center;
-    color: orange;
+    color: rgb(144, 213, 151);
     padding: 10%;
-}
-#backg{
-    background-image: url(./Img/dumbbell-1966247_1280.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-nav{
-    background-color: black;
-    opacity: 0.5;
-    position: sticky;
-}
-a {
-    color: orange;
-    text-decoration: none;
-    
-}
-a:hover {
-    color: black;
+    rotate: -30deg;
 }
 
-ol {
-    display: flex;
-    list-style: none;
+footer img{
+    width: 80%;
+    padding: 5px;
 }
-
-li {
-    float: left;
-    text-align: center;
-    width: calc(100%/4);
-    padding: 2%;
-}
-li:hover{
-    background-color: orange;
+header img{
+    width: 80%;
+    padding: 5px;
 }
