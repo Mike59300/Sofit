@@ -1,38 +1,131 @@
-body {
+body{
     height: 100vh;
-    font-size: 20px;
-    background-image: url(./Img/background.png) !important;
+    background-image: url(./Img/background.png);
     background-size: cover;
     background-repeat: no-repeat;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-#title{
-    font-size: 6rem;
-    text-align: center;
-    color: rgb(144, 213, 151);
-    font-weight: 900;
-    rotate: -30deg;
-    position: absolute;
-    left: 20%;
-    top: 40%;
-}
-
 header img{
-    width: 100%;
-    padding: 5px;
+    width: 10vh;
 }
-
-.altere{
-    width: 100%;
+header a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    padding-bottom: 1%;
+    font-weight: 700;
 }
-nav img{
-    width: 40%;
-    padding: 10px 0;
+header li{
+    list-style: none;
+    
 }
-nav {
-    background-color:rgb(144, 213, 151) !important;
+header a:hover{
+    color: green;
 }
-a{
-    width: calc(100%/4);
-    margin: none;
+header ol{
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    background-color: orange;
+}
+li p{
+    font-size: 1rem;
+}
+header div{
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-between;
+    height: 10vh;
+}
+.logo {
+    width: 10%;
+    padding: 1%;
+}
+.categorie{
+    width: 85%;
     text-align: center;
+}
+.categorie img{
+    width: 50%;
+}
+span{
+    color: white;
+    font-size: 1rem;
+}
+.contact{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+}
+.contact div{
+    display: flex;
+    width: 30%;
+    align-items: center;
+}
+.title{
+    display: flex;
+}
+.altere{
+    display: flex;
+    align-items: center;
+}
+.altere p{
+    color: white;
+    font-size: 150px;
+    rotate: -18deg;
+    filter: drop-shadow(2px 4px 32px orange);
+}
+.menu2{
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 15%;
+}
+.menu2 img{
+    width: 5vh;
+}
+.menu2 p{
+    font-size: 1rem;
+}
+.menu2 a{
+    text-decoration: none;
+    color: black;
+}
+footer nav{
+    display: none;
+}
+hr{
+    width: 50%;
+    border: 1px solid black;
+    opacity: 0.3;
+}
+@media screen and (min-width:368px) and (max-width: 1023px) {
+    .title {
+        display: none;
+    }
+    footer nav{
+        display: block;
+    }
+    footer nav img{
+        width: 10%;
+    }
+    header nav{
+        display: none;
+    }
+    header img{
+        width: 4vh;
+    }
+    .contact{
+        display: block;
+        background-color: black;
+        justify-content: center;
+    }
+    .contact div{
+        display: flex;
+        width: 100%;
+        align-items: center;
+    }
 }
